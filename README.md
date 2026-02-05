@@ -27,7 +27,7 @@ Input: 128x128 Mel-Spectrograms.
 Layers: 3 Convolutional blocks with Batch Normalization for faster convergence and Global Average Pooling to reduce parameter count.
 Regularization: Dropout (0.4) to prevent memorization of training samples.
 
-3. Key Settings & Optimization
+Key Settings & Optimization
 Class Balancing: Implemented class_weight (2.0 for Neutral) to compensate for data imbalance.
 EarlyStopping: Automatically halted training when validation loss stopped improving (Patience: 8).
 Learning Rate Scheduler: Used ReduceLROnPlateau to fine-tune weights during plateaus.
