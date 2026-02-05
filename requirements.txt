@@ -1,0 +1,10 @@
+Libraries used:
+librosa
+tensorflow
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+h5py
+Python version:3.12.7
